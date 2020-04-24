@@ -160,3 +160,7 @@ PRODUCT_PACKAGES += \
     libhwbinder \
     libhwbinder.vendor \
     libhidltransport
+# WiFi
+PRODUCT_PACKAGES += \
+    WifiOverlay
+
