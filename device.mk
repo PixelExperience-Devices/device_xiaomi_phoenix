@@ -162,5 +162,6 @@ PRODUCT_PACKAGES += \
     libhidltransport
 # WiFi
 PRODUCT_PACKAGES += \
+    TetheringConfigOverlay \
     WifiOverlay
 
