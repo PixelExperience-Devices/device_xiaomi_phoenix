@@ -1,5 +1,8 @@
 allow vendor_init persist_file:lnk_file read;
 
+# Allow vendor_init to check encryption status of system_data_file
+allow vendor_init system_data_file:dir { ioctl open read setattr };
+
 # Allow vendor_init to set vendor_camera_prop
 set_prop(vendor_init, vendor_camera_prop)
 set_prop(vendor_init, persist_camera_prop)
