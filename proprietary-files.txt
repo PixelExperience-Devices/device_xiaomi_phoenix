@@ -1,3 +1,7 @@
+# Alarm
+-product/app/PowerOffAlarm/PowerOffAlarm.apk
+product/framework/vendor.qti.hardware.alarm-V1.0-java.jar
+
 # ANT+
 -lib/libantradio.so
 -lib64/libantradio.so
@@ -82,6 +86,67 @@ product/etc/CarrierSettings/vodafone_nl.pb|48aedcec52ed2a4ac6641428ca1b3a2f013bd
 product/etc/CarrierSettings/xfinity_us.pb|1b4744e6887943248d1a21282f1bc3b0788ee52a
 -product/priv-app/CarrierSettings/CarrierSettings.apk|5f6509438fd490f850b19e5295cc92edd19e6d4d
 
+# Camera
+lib/libcameraservice.so
+lib/vendor.qti.hardware.camera.device@1.0.so
+lib64/libCameraEffectJNI.so
+lib64/libarcsoft_deflicker.so
+lib64/libarcsoft_single_chart_calibration.so
+lib64/libarcsoft_wideselfie.so
+lib64/libcameraservice.so
+lib64/libcamera_960_mpbase.so
+lib64/libcamera_arcsoft_beautyshot.so
+lib64/libcamera_arcsoft_handgesture.so
+lib64/libcamera_beauty_mpbase.so
+lib64/libcamera_handgesture_mpbase.so
+lib64/libcamera_wideselfie_mpbase.so
+lib64/libcit_mpbase.so
+lib64/libdeflicker_jni.so
+lib64/libgallery_mpbase.so
+lib64/libcom.xiaomi.camera.algojni.so
+lib64/libcom.xiaomi.camera.mianodejni.so
+lib64/libdualcameraddm.so
+lib64/libhandengine.arcsoft.so
+lib64/libgallery_arcsoft_dualcam_refocus.so
+lib64/libjni_dualcamera.so
+lib64/libjni_wideselfie.so
+lib64/librefocus.so
+lib64/libqvrcamera_client.qti.so
+lib64/libtrueportrait.so
+lib64/vendor.qti.hardware.camera.device@1.0.so
+
+# CNE
+product/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml
+product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml
+product/framework/com.quicinc.cne.api-V1.1-java.jar
+product/framework/com.quicinc.cne.constants-V1.0-java.jar
+product/framework/com.quicinc.cne.constants-V2.0-java.jar
+product/framework/com.quicinc.cne.constants-V2.1-java.jar
+product/framework/vendor.qti.hardware.data.cne.internal.api-V1.0-java.jar
+product/framework/vendor.qti.hardware.data.cne.internal.constants-V1.0-java.jar
+product/framework/vendor.qti.hardware.data.connection-V1.0-java.jar
+product/framework/vendor.qti.hardware.data.connection-V1.1-java.jar
+product/framework/vendor.qti.hardware.data.dynamicdds-V1.0-java.jar
+product/framework/vendor.qti.hardware.data.iwlan-V1.0-java.jar
+product/framework/vendor.qti.hardware.data.latency-V1.0-java.jar
+product/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar
+product/framework/vendor.qti.hardware.factory-V1.0-java.jar
+product/framework/vendor.qti.hardware.factory-V1.1-java.jar
+-product/lib64/com.quicinc.cne.api@1.0.so
+-product/lib64/com.quicinc.cne.api@1.1.so
+-product/lib64/com.quicinc.cne.constants@1.0.so
+-product/lib64/com.quicinc.cne.constants@2.0.so
+-product/lib64/com.quicinc.cne.constants@2.1.so
+
+# Display feature
+bin/displayfeature
+lib64/libdisplayfeature.so
+lib64/libdisplayfeatureservice.so
+lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
+lib/libdisplayfeature.so
+lib/libdisplayfeatureservice.so
+lib/vendor.xiaomi.hardware.displayfeature@1.0.so
+
 # DPM
 framework/tcmclient.jar
 product/bin/dpmd
@@ -125,6 +190,12 @@ bin/charger
 # Soundfx - from LA.UM.8.9.r1-08300-SM6xx.0
 vendor/lib/soundfx/libvolumelistener.so:product/vendor_overlay/29/lib/soundfx/libvolumelistener.so:|672ad577dab5221bdd7f840d87313e3483aebde0
 vendor/lib64/soundfx/libvolumelistener.so:product/vendor_overlay/29/lib64/soundfx/libvolumelistener.so|c25cc5e8c3622eb97d3bb4814aeb301c01d8b046
+
+#System
+lib/libqdMetaData.so
+lib/libqdMetaData.system.so
+lib64/libqdMetaData.so
+lib64/libqdMetaData.system.so
 
 # Telephony
 etc/permissions/privapp-permissions-qti.xml
