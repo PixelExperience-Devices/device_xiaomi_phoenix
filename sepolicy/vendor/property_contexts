@@ -1,0 +1,2 @@
+# NFC
+persist.nfc.core_reset_debug_info		u:object_r:vendor_nfc_prop:s0
