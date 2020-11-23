@@ -19,11 +19,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera,com.google.camera \
     vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.google.camera
 
-# Recorder
-PRODUCT_PRODUCT_PROPERTIES += \
-    persist.vendor.audio.fluence.voicerec=true \
-    persist.vendor.audio.fluence.audiorec=true
-
 # Telephony
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.telephony.default_network=22,22 \
