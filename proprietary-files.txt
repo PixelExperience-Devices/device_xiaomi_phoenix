@@ -111,7 +111,7 @@ product/lib64/vendor.qti.imsrtpservice@2.0.so
 product/lib64/vendor.qti.imsrtpservice@2.1.so
 
 # Power-off charging daemon
-bin/charger
+bin/charger|46cf4871d6678f63add8cf1ba5603cc51e00b5c0
 
 # Soundfx - from LA.UM.8.9.r1-08300-SM6xx.0
 vendor/lib/soundfx/libvolumelistener.so:product/vendor_overlay/29/lib/soundfx/libvolumelistener.so:|672ad577dab5221bdd7f840d87313e3483aebde0
