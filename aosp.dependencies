@@ -5,10 +5,10 @@
     "branch": "ten"
   },
   {
-    "remote": "pixel-devices-blobs",
-    "repository": "vendor_xiaomi_phoenix",
+    "remote": "github",
+    "repository": "KakatkarAkshay/vendor_xiaomi_phoenix",
     "target_path": "vendor/xiaomi/phoenix",
-    "branch": "ten"
+    "branch": "eleven"
   },
   {
     "repository": "kdrag0n/proton-clang",
