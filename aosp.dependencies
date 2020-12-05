@@ -16,7 +16,7 @@
     "branch": "master"
   },
   {
-    "repository": "CryllicBuster273/android_vendor_aeonax_ANXCamera",
+    "repository": "KakatkarAkshay/android_vendor_aeonax_ANXCamera",
     "target_path": "vendor/aeonax/ANXCamera",
     "branch": "vendor-overlay"
   }
