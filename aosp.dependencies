@@ -1,0 +1,24 @@
+[
+  {
+    "remote": "pixel-devices-blobs",
+    "repository": "vendor_xiaomi_phoenix",
+    "target_path": "vendor/xiaomi/phoenix",
+    "branch": "twelve"
+  },
+ {
+   "repository": "kernel_xiaomi_phoenix",
+   "target_path": "kernel/xiaomi/phoenix",
+   "branch": "twelve"
+ },
+ {
+    "repository": "PixelExperience/hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch": "twelve"
+ },
+ {
+    "remote": "pixel-devices-blobs",
+    "repository" : "vendor_xiaomi_sdm845-common-extra",
+    "target_path": "vendor/xiaomi/extras",
+    "branch": "twelve"
+  }
+]
