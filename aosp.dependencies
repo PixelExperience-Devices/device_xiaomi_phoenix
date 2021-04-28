@@ -1,0 +1,18 @@
+[
+  {
+    "remote": "pixel-devices-blobs",
+    "repository": "vendor_xiaomi_phoenix",
+    "target_path": "vendor/xiaomi/phoenix",
+    "branch": "eleven"
+  },
+ {
+   "repository": "kernel_xiaomi_phoenix",
+   "target_path": "kernel/xiaomi/phoenix",
+   "branch": "eleven"
+ },
+ {
+    "repository": "LineageOS/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch": "lineage-18.1"
+ }
+]
