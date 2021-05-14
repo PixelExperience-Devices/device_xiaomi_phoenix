@@ -59,14 +59,6 @@ constexpr const char *DEVICES[] = {
     "POCO X2",
 };
 
-constexpr const char *BUILD_DESCRIPTION[] = {
-    "walleye-user 8.1.0 OPM1.171019.011 4448085 release-keys",
-};
-
-constexpr const char *BUILD_FINGERPRINT[] = {
-    "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys",
-};
-
 constexpr const char *CLIENT_ID[] = {
     "android-xiaomi",
     "android-xiaomi-rev1",
@@ -104,19 +96,15 @@ void load_props(const char *model, bool is_in = false) {
     if (!is_in) {
       ro_prop_override(source, "brand", BRANDS[0], true);
       ro_prop_override(source, "name", PRODUCTS[0], true);
-      ro_prop_override(source, "fingerprint", BUILD_FINGERPRINT[0], false);
     } else {
       ro_prop_override(source, "brand", BRANDS[1], true);
       ro_prop_override(source, "name", PRODUCTS[1], true);
-      ro_prop_override(source, "fingerprint", BUILD_FINGERPRINT[0], false);
     }
   }
 
   if (!is_in) {
-    ro_prop_override(nullptr, "description", BUILD_DESCRIPTION[0], false);
     property_override("ro.boot.product.hardware.sku", PRODUCTS[0]);
   } else {
-    ro_prop_override(nullptr, "description", BUILD_DESCRIPTION[0], false);
     property_override("ro.com.google.clientidbase", CLIENT_ID[0]);
     property_override("ro.com.google.clientidbase.ms", CLIENT_ID[1]);
   }
