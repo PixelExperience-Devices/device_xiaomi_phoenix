@@ -630,3 +630,5 @@ PRODUCT_PACKAGES += \
     libqdMetaData.vendor \
     libwfdaac_vendor \
     vendor.display.config@2.0
+
+include vendor/xiaomi/extras/wfd.mk
