@@ -486,7 +486,6 @@ PRODUCT_COPY_FILES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.class_main.sh \
-    init.crda.sh \
     init.mdm.sh \
     init.qcom.class_core.sh \
     init.qcom.coex.sh \
