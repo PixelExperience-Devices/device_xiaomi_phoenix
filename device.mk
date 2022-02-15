@@ -368,8 +368,8 @@ PRODUCT_PACKAGES += \
     SettingsProvidorOverlayPhoenix \
     SystemUIOverlayPhoenix \
     TelephonyOverlayPhoenix \
-    TetheringConfigOverlay \
-    WifiOverlay
+    TetheringConfigOverlayPhoenix \
+    WifiOverlayPhoenix
 
 # Perf
 PRODUCT_PACKAGES += \
