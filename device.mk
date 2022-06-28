@@ -450,7 +450,6 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.target.rc \
     fstab.qcom \
-    fstab.emmc \
     ueventd.qcom.rc
 
 # RIL
